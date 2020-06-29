@@ -1,0 +1,19 @@
+.app-container {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    margin: 40px;
+    
+  }
+  
+  @media (min-width: 450px){
+    body {
+      display:flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .app-container {
+      max-width: 50vw;
+    
+    }
+  }

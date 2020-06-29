@@ -1,0 +1,21 @@
+.heart-button {
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .heart-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .unliked {
+    background-color: whitesmoke;
+  }
+  
+  .liked {
+    background-color:#ffadad;
+  }
